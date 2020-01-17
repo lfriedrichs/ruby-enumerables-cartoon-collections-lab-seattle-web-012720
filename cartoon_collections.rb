@@ -12,6 +12,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each {|n| return array[array.index(n)}
+  cheese_types.each {|n| array[array.index(n)] if array.index(n)}
   return nil
 end
